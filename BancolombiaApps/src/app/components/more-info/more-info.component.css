@@ -1,0 +1,39 @@
+.button1 {
+    background-color: #083D81;
+    width: 100%;
+    border-radius: 8px;
+    color: white;
+    border: 2px solid #083D81;
+    padding: 6px 25px;
+}
+
+p {
+    font-size: 20px;
+    color: #083D81;
+}
+
+h1 {
+    color: #FECE0C !important;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 6px 25px;
+}
+
+h3 {
+    color: #083D81 !important;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.stylesCol {
+    width: 100%;
+    padding: 6px 25px;
+    text-align: center
+}
+
+.urls {
+    font-weight: bold;
+    font-size: 20px;
+    color: #083D81;
+    text-decoration: underline;
+}

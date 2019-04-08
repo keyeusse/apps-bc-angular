@@ -1,0 +1,17 @@
+li a:hover:not(.active) {
+    font-weight: bold;
+    color: #083D81;
+}
+
+.active {
+    font-weight: bold;
+    color: #083D81;
+}
+
+.button1 {
+    background-color: #083D81;
+    border-radius: 8px;
+    color: white;
+    border: 2px solid #083D81;
+    padding: 6px 25px;
+}

@@ -1,0 +1,22 @@
+p {
+    font-size: 20px;
+    color: #083D81;
+    font-weight: bold;
+}
+
+h1 {
+    color: #FECE0C;
+    font-weight: bold;
+    font-size: 60px
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 30px;
+    color: #083D81;
+}
+
+a {
+    font-size: 20px;
+    color: #083D81;
+}

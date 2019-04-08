@@ -1,0 +1,7 @@
+<ngb-carousel *ngIf="images" class=" animated fadeIn container">
+    <ng-template ngbSlide *ngFor="let image of images">
+        <img [src]="image.img" alt="Random first slide" class="img-carousel">
+        <div class="carousel-caption">
+        </div>
+    </ng-template>
+</ngb-carousel>

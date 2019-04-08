@@ -1,0 +1,19 @@
+<h1>Información sobre {{application.appName}}</h1>
+<hr>
+<div class="row col-md-10">
+    <div class="col-md-4 stylesCol">
+        <h3>¿Deseas descargar la aplicación?</h3>
+        <img src="assets/img/qr.jpg" class="img-fluid">
+        <br><br>
+        <button (click)="backClicked()" class="button1">Regresar</button>
+    </div>
+    <div class="col-md-8">
+        <h3></h3>
+        <hr>
+        <p>{{application.description}}</p>
+        <p>
+            Para más información y asesoría
+            <a href="https://www.grupobancolombia.com/wps/portal/personas" class="urls" target="_blank"> visítanos aquí.</a>
+        </p>
+    </div>
+</div>

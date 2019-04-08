@@ -1,0 +1,15 @@
+<h1 class="container m-5">Aplicaciones móviles</h1>
+
+
+<div class="card-columns container m-5">
+
+    <div class="card animated fadeIn fast" *ngFor="let application of applications">
+        <img class="card-img-top" [src]="application.image" [alt]="application.appName">
+        <div class="card-body">
+            <h5 class="card-title">{{ application.appName }}</h5>
+            <p class="card-text max">{{ application.description }}</p>
+            <button (click)="verMas(application.id)" class="button1">Ver más...</button>
+        </div>
+    </div>
+
+</div>
